@@ -555,7 +555,6 @@ pre code {
   padding-bottom: 2rem;
   align-content: center;
 }
-}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -650,7 +649,9 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
-
+.col-lg-6 {
+  align-content: flex-start;
+}
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -4275,6 +4276,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 2rem;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -10333,17 +10335,17 @@ a.text-dark:hover, a.text-dark:focus {
     transform: rotate(45deg) translate(20px,20px);
   }
 }
+.medium{
+  font-size:1.7rem;
+}
 .small{
   font-size: medium;
-}
-.smaller{
-  font-size: smaller;
 }
 .header img{
   margin-top: 10px;
 }
 .fon1{
-  padding-top: 70px;
+  padding-top: 130px;
 }
 .icon{
   display: flex;
@@ -10357,9 +10359,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 20px;
   text-align: start;
 }
-.yellowbutton{
-  align-self: center;
-}
+
 .blocks{
   width: 100%;
   padding-left: 20px;
@@ -10370,6 +10370,18 @@ a.text-dark:hover, a.text-dark:focus {
   border-style: ridge;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.hdr{
+  text-align: center;
+  margin-top: 20px;
+}
+.block-info{
+  margin-left: 30px;
+}
+.yellowbutton {
+  align-self: center;
 }
 footer{
   background-color: #95999c;
@@ -10378,10 +10390,8 @@ footer{
   flex-wrap: nowrapwrap;
 }
 .socialimg{
-  margin-right: 20px;
+  margin-right: 30px;
 }
-.email{
-  font-size: medium;
 }
 .rights{
   font-size: smaller;
@@ -10395,7 +10405,4 @@ footer{
   margin-top: 75px;
   margin-bottom: 40px;
   text-align: center;
-}
-.figcaption{
-  font-size: medium;
 }
