@@ -76,7 +76,7 @@ hr {
 }
 
 h1, h2, h3, h5, h6 {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0.5rem;
 }
 h4{
@@ -618,7 +618,8 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  margin-top: 45px;
+  align-items: stretch;
+  justify-content: stretch;
 }
 
 .no-gutters {
@@ -644,14 +645,20 @@ pre code {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  align-content: center;
+  align-content: stretch;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
-.col-lg-6 {
-  align-content: flex-start;
+.col-lg-3 {
+  align-content: stretch;
+  justify-content: stretch;
 }
+.col-12{
+ padding-right: 50px;
+  padding-left: 50px;
+}
+
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -3166,7 +3173,7 @@ fieldset:disabled a.btn {
   line-height: 1.5;
   border-radius: 0.8rem;
   margin-bottom: 20px;
-  width: 300px;
+  width: 100%;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -10370,18 +10377,20 @@ a.text-dark:hover, a.text-dark:focus {
   border-style: ridge;
   display: flex;
   flex-direction: column;
+  align-self: stretch;
+  flex: 1;
   justify-content: space-between;
-  align-content: stretch;
+
 }
 .hdr{
   text-align: center;
-  margin-top: 20px;
 }
 .block-info{
   margin-left: 30px;
 }
 .yellowbutton {
   align-self: center;
+  align-self: stretch;
 }
 footer{
   background-color: #95999c;
