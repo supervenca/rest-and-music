@@ -10401,7 +10401,6 @@ footer{
 .socialimg{
   margin-right: 30px;
 }
-}
 .rights{
   font-size: smaller;
   align-items: center;
@@ -10414,4 +10413,8 @@ footer{
   margin-top: 75px;
   margin-bottom: 40px;
   text-align: center;
+}
+.contactform {
+  background-color: white;
+  text-decoration-color: black;
 }
