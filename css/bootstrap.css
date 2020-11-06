@@ -10417,6 +10417,7 @@ footer{
 .contactform {
   background-color: white;
   text-decoration-color: black;
+  display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
