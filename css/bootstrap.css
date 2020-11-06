@@ -10393,7 +10393,7 @@ a.text-dark:hover, a.text-dark:focus {
   align-self: stretch;
 }
 footer{
-  background-color: #95999c;
+  background-color: white;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrapwrap;
