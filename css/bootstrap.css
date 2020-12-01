@@ -159,14 +159,8 @@ sup {
 }
 
 a {
-  color: #007bff;
   text-decoration: none;
   background-color: transparent;
-}
-
-a:hover {
-  color: #0056b3;
-  text-decoration: underline;
 }
 
 a:not([href]) {
@@ -10422,4 +10416,20 @@ footer{
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  opacity: .7;
+}
+.footer-copyright {
+  text-align: center;
+  color: white;
+}
+.footer-copyright a {
+  color: white;
+}
+.footer-copyright a:hover {
+  opacity: .5;
 }
